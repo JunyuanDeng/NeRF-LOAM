@@ -47,9 +47,9 @@ This repository contains the implementation of our paper:
 
 ## Data
 
-1. Newer College real-world LiDAR dataset [website](https://ori-drs.github.io/newer-college-dataset/download/). 
+1. Newer College real-world LiDAR dataset: [website](https://ori-drs.github.io/newer-college-dataset/download/). 
 
-2. MaiCity synthetic LiDAR dataset [website](https://www.ipb.uni-bonn.de/data/mai-city-dataset/).
+2. MaiCity synthetic LiDAR dataset: [website](https://www.ipb.uni-bonn.de/data/mai-city-dataset/).
 
 3. KITTI dataset: [website](https://www.cvlibs.net/datasets/kitti/).
 

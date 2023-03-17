@@ -10,7 +10,7 @@ This repository contains the implementation of our paper:
 	title={{NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping}},
 	author={DENG, Junyuan and Chen, Xieyuanli and blalalalal},
 	journal={arXiv preprint},
-	doi = {100.qwert/ARXIV.ilovenet.ilovenet},
+	doi = {100.qwert/ARXIV.iloveCS.iloveCSGO},
 	volume  = {good.nice},
 	year={2023}
 }
@@ -35,6 +35,14 @@ This repository contains the implementation of our paper:
 - Key-scans refined map returns SDF value and the final mesh is reconstructed by marching cube.
 
 ## Quatitative results
+
+**The reconstructed maps**
+![odomap_kitti](./docs/odomap_kitti.png)
+*The qualitative result of our odometry mapping on KITTI dataset. From left upper to right bottom, we list the results of sequences 00, 01, 03, 04, 05, 09, 10.*
+
+**The odometry results**
+![odo_qual](./docs/odo_qual.png)
+*The qualitative results of our odometry on KITTI dataset. From left to right, we list the results of sequences 00, 01, 03, 04, 05, 07, 09, 10. The dashed line corresponds to the ground truth and the blue line to our odometry method.*
 
 
 ## Data

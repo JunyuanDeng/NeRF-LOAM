@@ -1,19 +1,12 @@
 # NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping
 
 This repository contains the implementation of our paper:
-> **NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping** [[pdf](https://www.baidu.com/)]\
-> [Junyuan Deng](https://github.com/Rotatingpencil),  [Xieyuanli Chen](https://github.com/Chen-Xieyuanli), Songpengcheng Xia, Zhen Sun, Guoqing Liu, Wenxian Yu and Ling Pei\
+> **NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping** [announced at Tue, 21 Mar 2023 00:00:00 GMT]\
+> [Junyuan Deng](https://github.com/JunyuanDeng),  [Xieyuanli Chen](https://github.com/Chen-Xieyuanli), Songpengcheng Xia, Zhen Sun, Guoqing Liu, Wenxian Yu and Ling Pei\
 > If you use our code in your work, please star our repo and cite our paper.
 
 ```
-@article{deng2023arxiv,
-	title={{NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping}},
-	author={DENG, Junyuan and Chen, Xieyuanli and blalalalal},
-	journal={arXiv preprint},
-	doi = {100.qwert/ARXIV.iloveCS.iloveCSGO},
-	volume  = {good.nice},
-	year={2023}
-}
+announced at Tue, 21 Mar 2023 00:00:00 GMT
 ```
 
 <div align=center>

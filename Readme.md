@@ -20,9 +20,9 @@ This repository contains the implementation of our paper:
 <img src="./docs/NeRFLOAM.gif"> 
 </div>
 
-- *Our incrementally simultaneous odometry and mapping results on Newer College dataset and KITTI dataset sequence 00.*
-- *The maps is in dense with form of mesh, the red line indicate the odometry results*
-- *We use the same network without traning to prove the ablitity of generalization of our design*
+- *Our incrementally simultaneous odometry and mapping results on the Newer College dataset and the KITTI dataset sequence 00.*
+- *The maps are dense with a form of mesh, the red line indicates the odometry results*
+- *We use the same network without training to prove the ability of generalization of our design*
 
 
 ## Overview
@@ -38,11 +38,11 @@ This repository contains the implementation of our paper:
 
 **The reconstructed maps**
 ![odomap_kitti](./docs/odomap_kitti.png)
-*The qualitative result of our odometry mapping on KITTI dataset. From left upper to right bottom, we list the results of sequences 00, 01, 03, 04, 05, 09, 10.*
+*The qualitative result of our odometry mapping on the KITTI dataset. From left upper to right bottom, we list the results of sequences 00, 01, 03, 04, 05, 09, 10.*
 
 **The odometry results**
 ![odo_qual](./docs/odo_qual.png)
-*The qualitative results of our odometry on KITTI dataset. From left to right, we list the results of sequences 00, 01, 03, 04, 05, 07, 09, 10. The dashed line corresponds to the ground truth and the blue line to our odometry method.*
+*The qualitative results of our odometry on the KITTI dataset. From left to right, we list the results of sequences 00, 01, 03, 04, 05, 07, 09, 10. The dashed line corresponds to the ground truth and the blue line to our odometry method.*
 
 
 ## Data
@@ -59,7 +59,7 @@ The code and usage details will be available soon.
 
 ## Contact
 
-Any question or suggestions are welcome!
+Any questions or suggestions are welcome!
 
 Junyuan Deng: djuney@sjtu.edu.cn and Xieyuanli Chen: xieyuanli.chen@nudt.edu.cn
 

@@ -6,7 +6,14 @@ This repository contains the implementation of our paper:
 > If you use our code in your work, please star our repo and cite our paper.
 
 ```
-announced at Tue, 21 Mar 2023 00:00:00 GMT
+@misc{deng2023nerfloam,
+      title={NeRF-LOAM: Neural Implicit Representation for Large-Scale Incremental LiDAR Odometry and Mapping}, 
+      author={Junyuan Deng and Xieyuanli Chen and Songpengcheng Xia and Zhen Sun and Guoqing Liu and Wenxian Yu and Ling Pei},
+      year={2023},
+      eprint={2303.10709},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 <div align=center>

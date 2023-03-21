@@ -21,8 +21,8 @@ This repository contains the implementation of our paper:
 </div>
 
 - *Our incrementally simultaneous odometry and mapping results on the Newer College dataset and the KITTI dataset sequence 00.*
-- *The maps are dense with a form of mesh, the red line indicates the odometry results*
-- *We use the same network without training to prove the ability of generalization of our design*
+- *The maps are dense with a form of mesh, the red line indicates the odometry results.*
+- *We use the same network without training to prove the ability of generalization of our design.*
 
 
 ## Overview

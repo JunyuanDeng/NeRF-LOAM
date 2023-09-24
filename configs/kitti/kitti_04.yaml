@@ -1,0 +1,16 @@
+base_config: configs/kitti/kitti.yaml
+
+exp_name: kitti/sqeuence04
+
+
+
+data_specs:
+  data_path: '/home/pl21n4/dataset/kitti/dataset/sequences/04'
+  use_gt: False
+  max_depth: 50
+  min_depth: 2.75
+
+tracker_specs:
+  start_frame: 0
+  end_frame: 270
+  read_offset: 1

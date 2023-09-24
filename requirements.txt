@@ -1,0 +1,8 @@
+matplotlib
+open3d
+opencv-python
+PyYAML
+scikit-image
+tqdm
+trimesh
+pyyaml

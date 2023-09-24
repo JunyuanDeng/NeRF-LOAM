@@ -1,0 +1,54 @@
+log_dir: '/home/evsjtu2/disk1/dengjunyuan/running_logs/'
+decoder: lidar
+dataset: kitti
+
+criteria:
+  depth_weight: 0
+  sdf_weight: 12000.0
+  fs_weight: 1
+  eiko_weight: 0
+  sdf_truncation: 0.50
+
+decoder_specs:
+  depth: 2
+  width: 256
+  in_dim: 16
+  skips: []
+  embedder: none
+  multires: 0
+
+tracker_specs:
+  N_rays: 2048
+  learning_rate: 0.1
+  start_frame: 0
+  end_frame: -1
+  step_size: 0.2
+  show_imgs: False
+  max_voxel_hit: 20
+  keyframe_freq: 10
+  num_iterations: 40
+
+mapper_specs:
+  N_rays_each: 2048
+  num_embeddings: 20000000
+  use_local_coord: False
+  voxel_size: 0.2
+  step_size: 0.2
+  window_size: 4
+  num_iterations: 20
+  max_voxel_hit: 20
+  final_iter: True
+  mesh_res: 2
+  overlap_th: 0.8
+  learning_rate_emb: 0.03
+  learning_rate_decorder: 0.005
+  learning_rate_pose: 0.001
+  #max_depth_first: 20
+  freeze_frame: 10
+  keyframe_gap: 7
+  remove_back: True
+  key_distance: 7
+
+debug_args:
+  verbose: False
+  mesh_freq: 100

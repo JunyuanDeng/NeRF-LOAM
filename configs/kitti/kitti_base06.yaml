@@ -1,0 +1,46 @@
+log_dir: './logs'
+decoder: lidar
+dataset: kitti
+
+criteria:
+  sdf_weight: 10000.0
+  fs_weight: 1
+  eiko_weight: 0.1
+  sdf_truncation: 0.30
+
+decoder_specs:
+  depth: 2
+  width: 256
+  in_dim: 16
+  skips: []
+  embedder: none
+  multires: 0
+
+tracker_specs:
+  N_rays: 2048
+  learning_rate: 0.06
+  step_size: 0.2
+  max_voxel_hit: 20
+  num_iterations: 25
+
+mapper_specs:
+  N_rays_each: 2048
+  use_local_coord: False
+  voxel_size: 0.3
+  step_size: 0.5
+  window_size: 4
+  num_iterations: 25
+  max_voxel_hit: 20
+  final_iter: True
+  mesh_res: 2
+  learning_rate_emb: 0.01
+  learning_rate_decorder: 0.005
+  learning_rate_pose: 0.001
+  freeze_frame: 5
+  keyframe_gap: 8
+  remove_back: False
+  key_distance: 12
+
+debug_args:
+  verbose: False
+  mesh_freq: 100

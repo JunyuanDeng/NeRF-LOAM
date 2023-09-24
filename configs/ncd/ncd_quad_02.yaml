@@ -1,0 +1,17 @@
+base_config: configs/ncd/ncd.yaml
+
+exp_name: ncd/quad
+
+
+
+data_specs:
+  data_path: '/home/pl21n4/dataset/ncd_example/quad'
+  use_gt: True
+  max_depth: 40
+  min_depth: 1.5
+
+tracker_specs:
+  start_frame: 0
+  end_frame: 1300
+  read_offset: 2
+

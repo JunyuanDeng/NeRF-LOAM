@@ -1,0 +1,8 @@
+__pycache__
+*.egg-info
+build/
+dist/
+logs/
+.vscode/
+results/
+README.md

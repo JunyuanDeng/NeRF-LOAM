@@ -1,0 +1,17 @@
+base_config: configs/ncd/ncd.yaml
+
+exp_name: ncd/quad
+
+
+
+data_specs:
+  data_path: '/home/evsjtu2/disk1/dengjunyuan/newer_colleage_quad/quad/'
+  use_gt: False
+  max_depth: 50
+  min_depth: 1.5
+
+tracker_specs:
+  start_frame: 0
+  end_frame: -1
+  read_offset: 5
+

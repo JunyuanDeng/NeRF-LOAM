@@ -1,0 +1,16 @@
+base_config: configs/kitti/kitti.yaml
+
+exp_name: kitti/sqeuence07
+
+
+
+data_specs:
+  data_path: '/home/evsjtu2/disk1/dengjunyuan/kitti/dataset/sequences/07'
+  use_gt: True
+  max_depth: 25
+  min_depth: 5
+
+tracker_specs:
+  start_frame: 0
+  end_frame: 1100
+  read_offset: 1

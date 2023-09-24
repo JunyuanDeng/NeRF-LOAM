@@ -1,0 +1,16 @@
+base_config: configs/kitti/kitti_base10.yaml
+
+exp_name: kitti/sqeuence10
+
+
+
+data_specs:
+  data_path: '/home/pl21n4/dataset/kitti/dataset/sequences/10'
+  use_gt: False
+  max_depth: 70
+  min_depth: 2.75
+
+tracker_specs:
+  start_frame: 0
+  end_frame: 1200
+  read_offset: 1

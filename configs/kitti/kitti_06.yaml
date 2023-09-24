@@ -1,0 +1,16 @@
+base_config: configs/kitti/kitti.yaml
+
+exp_name: kitti/sqeuence06
+
+
+
+data_specs:
+  data_path: '/home/pl21n4/dataset/kitti/dataset/sequences/06'
+  use_gt: False
+  max_depth: 40
+  min_depth: 5
+
+tracker_specs:
+  start_frame: 0
+  end_frame: -1
+  read_offset: 1

@@ -1,0 +1,15 @@
+base_config: configs/maicity/maicity.yaml
+
+exp_name: maicity/sqeuence01
+
+
+data_specs:
+  data_path: '/home/evsjtu2/disk1/dengjunyuan/maicity/bin/sequences/01'
+  use_gt: False
+  max_depth: 50.0
+  min_depth: 1.5
+
+tracker_specs:
+  start_frame: 0
+  end_frame: 99
+  read_offset: 1

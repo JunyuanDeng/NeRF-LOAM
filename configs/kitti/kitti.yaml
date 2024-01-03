@@ -6,7 +6,7 @@ criteria:
   sdf_weight: 10000.0
   fs_weight: 1
   eiko_weight: 0.1
-  sdf_truncation: 0.60
+  sdf_truncation: 0.30
 
 decoder_specs:
   depth: 2

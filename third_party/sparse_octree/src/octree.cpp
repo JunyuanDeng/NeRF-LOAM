@@ -33,7 +33,6 @@ Octree::~Octree()
 
 void Octree::init(int64_t grid_dim, int64_t feat_dim, double voxel_size)
 {
-    Octant::next_index_ = 0;
     size_ = grid_dim;
     feat_dim_ = feat_dim;
     voxel_size_ = voxel_size;
